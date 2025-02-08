@@ -78,5 +78,7 @@ function fn() {
 
         // Initiate repository path values for sets of common test scenarios
         PREFIX_COMMON_TESTS: PREFIX_COMMON_TESTS,
+        httpStatusValidationFeature: `${PREFIX_COMMON_TESTS}/http-client-errors-with-payload.feature`,
+        multipleFeature: `${PREFIX_COMMON_TESTS}/multiple-test-sets-validation-facade.feature`,
     };
 }
